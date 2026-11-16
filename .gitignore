@@ -1,0 +1,21 @@
+# Virtual Environment & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime IPC bridge temporary files & logs
+bridge/requests/*
+!bridge/requests/.gitkeep
+bridge/responses/*
+!bridge/responses/.gitkeep
+bridge/previews/*
+!bridge/previews/.gitkeep
+bridge/history.jsonl
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
